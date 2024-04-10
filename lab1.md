@@ -1,1 +1,2 @@
-LAB 1 REPORT
+![Image](cat-command.jpg)
+![Image](cd-command.jpg)
