@@ -1,1 +1,1 @@
-/add-message?s=<string>&user=<string>
+/add-message?s=Hello&user=Amir
