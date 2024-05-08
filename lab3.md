@@ -11,7 +11,8 @@
          ArrayExamples.reverseInPlace(input);
          assertArrayEquals(new int[]{4, 3, 2, 1}, input);
        }
-     }``` 
+     }
+  ``` 
 
 * #2) An input that doesn't induce a failure
   ```@Test 
@@ -19,7 +20,8 @@
           int[] input = { 3 };
           ArrayExamples.reverseInPlace(input);
           assertArrayEquals(new int[]{ 3 }, input); // This test should pass as reversing a single element doesn't change the array.
-       }```
+       }
+  ```
 * #3) 
 ![Image](symptom.png)
 * #4)
