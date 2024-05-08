@@ -1,4 +1,4 @@
-* Part 1) **` ArrayTests.java `**
+* Part 1) A failure-inducing input **` ArrayTests.java `**
   ```import org.junit.Test;
      import static org.junit.Assert.*;
 
