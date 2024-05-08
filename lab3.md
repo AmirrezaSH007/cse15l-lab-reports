@@ -42,4 +42,17 @@
             array[array.length - 1 - i] = temp;     
         }
      }
+
+Part 5)
+The fix addresses the issue by correctly using `array.length - 1 - i` for indexing, which correctly accesses the elements from the end of the array to swap with those at the beginning, without exceeding the array bounds. The loop only goes up to the middle of the array (`array.length / 2`), ensuring that each element is swapped only once, which efficiently reverses the array.
+
+This change ensures that the method behaves correctly for all valid input sizes and types, including arrays with an even number of elements, which was where the original method failed.
+
+
+
+
+
+
+
+
   }
