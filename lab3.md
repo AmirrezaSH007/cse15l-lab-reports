@@ -18,4 +18,4 @@
           int[] input = { 3 };
           ArrayExamples.reverseInPlace(input);
           assertArrayEquals(new int[]{ 3 }, input); // This test should pass as reversing a single element doesn't change the array.
-}```
+       }```
