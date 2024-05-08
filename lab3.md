@@ -89,7 +89,7 @@ This command searches for the word "function" in all files within the ./technica
 * **`grep -i "MODel" ./technical/biomed/rr73.txt`** This searches for the word "model" in rr73.txt under the ./technical/biomed directory, ignoring case. It's useful when we're unsure of the casing.
 
   ```in vitro model of 
-  remodeling. It seems unlikely that tissue remodeling is```
+  remodeling. It seems unlikely that tissue remodeling is
  * **`grep -i "STudY" ./technical/biomed/rr196.txt`** Again does the same but for the word "study" and in a different file.
    ```control muscle in that study [ 11 ] .
         out to study changes in MHC-determined fiber types and MHC
@@ -100,5 +100,5 @@ This command searches for the word "function" in all files within the ./technica
         from IIb fibers. Furthermore, no study in emphysematous
         more in line with Kanbara's findings. In that study, the
         fibers [ 10 ] . Another study has shown increased
-        animal model of emphysema, this study is the first to``
+        animal model of emphysema, this study is the first to
 
