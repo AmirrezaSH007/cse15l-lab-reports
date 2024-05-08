@@ -62,6 +62,7 @@ I used `man grep` on my terminal and every usable command poped up and these are
 This command searches for the word "function" in all files within the ./technical directory and all its subdirectories. It's useful for finding occurrences of "function" in multiple files without having to specify each file.
 
 * **`grep -r "function" ./technical/`**
+
 ```
 ./technical//biomed/1471-2202-2-6.txt:        assemble to form a functional channel. Both homomultimeres
 ./technical//biomed/1471-2202-2-6.txt:        this function, since it is the only IP 
@@ -77,7 +78,8 @@ This command searches for the word "function" in all files within the ./technica
 . many more
 ```
 * **`grep -r "^import" ./technical/`**
-  This command searches for lines that start with "import" in all files under the ./technical directory recursively. It's helpful for identifying import statements in programming projects.
+  Again, This command does the same as above, but searches for lines that start with "import" in all files under the ./technical directory recursively.
+
 ```
 ./technical//government/About_LSC/Strategic_report.txt:important to the creation of a world-class delivery system as state
 ./technical//government/About_LSC/Strategic_report.txt:important consulting and facilitative assistance with configuration
@@ -97,8 +99,12 @@ This command searches for the word "function" in all files within the ./technica
 
   ```in vitro model of 
   remodeling. It seems unlikely that tissue remodeling is
+  ```
+  
  * **`grep -i "STudY" ./technical/biomed/rr196.txt`** Again does the same but for the word "study" and in a different file.
-   ```control muscle in that study [ 11 ] .
+
+```
+   control muscle in that study [ 11 ] .
         out to study changes in MHC-determined fiber types and MHC
           An apparatus for the study 
           After study, the strip was removed from the apparatus,
@@ -108,12 +114,15 @@ This command searches for the word "function" in all files within the ./technica
         more in line with Kanbara's findings. In that study, the
         fibers [ 10 ] . Another study has shown increased
         animal model of emphysema, this study is the first to
+```
 
 **NEXT**
 
   ![Image](n.png)
 * **`grep -n "study" ./technical/biomed/rr73.txt`** This command searches for "study" in the ./technical/rr73.txt, displaying line numbers with matches. It's particularly useful when editing files as it tells you exactly where to find the terms.
-```16:        Results in the linked study [ 5] demonstrated that 3D
+
+```
+16:        Results in the linked study [ 5] demonstrated that 3D
 20:        the current study, an extension of this linked study, was
 148:        In the linked study [ 5], extended co-cultures of
 152:        degradation of collagen. The current study suggests that
@@ -125,7 +134,8 @@ This command searches for the word "function" in all files within the ./technica
 ```
 * **`grep -n "model" ./technical/biomed/rr196.txt`** Again, does the same but in a different file and finds the word "model" with the matched lines.
 
-```7:        studied animal model for human emphysema. Several
+```
+7:        studied animal model for human emphysema. Several
 9:        been demonstrated in this model. Among these are diaphragm
 46:        which is similar to that seen in the animal model.
 74:        expected that such findings might identify the rat model of
@@ -147,14 +157,18 @@ This command searches for the word "function" in all files within the ./technica
 
 ![Image](exclude.png)
 * **`grep -r --exclude-dir=biomed "cache" ./technical/`** This command searches recursively for "cache" in all files within ./technical, excluding any directory named `biomed`. It helps in avoiding redundant searches in `biomed` directory.
-```./technical//government/Media/Retirement_Has_Its_Appeal.txt:"He has the cachet of being a long-standing family court judge,
+
+```
+./technical//government/Media/Retirement_Has_Its_Appeal.txt:"He has the cachet of being a long-standing family court judge,
 ./technical//911report/chapter-13.4.txt:                cachets. CIA analytic report, Al Qaeda travel issues, Jan. 2004, p. 1.
 ./technical//911report/chapter-13.4.txt:                1999. Another possible source of suspicion is his passport, which contains a cachet
 ./technical//911report/chapter-5.txt:                and adding travel cachets, were also taught. Manuals demonstrating the technique for
 ./technical//911report/chapter-12.txt:                recorded in passports with entry-exit stamps called cachets, which al Qaeda has
 ```
 * **`grep -r --exclude-dir={government,biomed} "session" ./technical/`** Again does the same, but this times, we used the command so that we exclude both `government` and `biomed` to find the word session in the other.
-```./technical//plos/pmed.0020060.txt:        Museum of French Art in New York, auctioned, and finally ending up in the possession of a
+  
+```
+./technical//plos/pmed.0020060.txt:        Museum of French Art in New York, auctioned, and finally ending up in the possession of a
 ./technical//plos/pmed.0020060.txt:        tapes of hundreds of hours of therapy sessions given to her by Sexton's therapist Dr.
 ./technical//plos/journal.pbio.0030136.txt:        obsession reveal about neural processing? Why does repeated fine-grain structure wreak such
 ./technical//plos/pmed.0020016.txt:        preparation for that session, Schwartländer et al. published an estimate of the resource
