@@ -102,3 +102,17 @@ This command searches for the word "function" in all files within the ./technica
         fibers [ 10 ] . Another study has shown increased
         animal model of emphysema, this study is the first to
 
+   **NEXT**
+
+  ![Image](n.png)
+  * **`grep -n "study" ./technical/biomed/rr73.txt`**
+```16:        Results in the linked study [ 5] demonstrated that 3D
+20:        the current study, an extension of this linked study, was
+148:        In the linked study [ 5], extended co-cultures of
+152:        degradation of collagen. The current study suggests that
+163:        21]. The current study suggests the possibility that NE can
+182:        however, develop emphysema [ 14]. The current study
+186:        According to results from this study, several proteases
+189:        play a role beyond those evaluated in the current study. In
+222:        This study demonstrates that monocytes and fibroblasts
+
