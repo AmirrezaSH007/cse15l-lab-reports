@@ -30,7 +30,7 @@
             array[array.length - i] = temp;     
        }
      }
-  }```
+  }
 
  **Next**
 
@@ -42,4 +42,4 @@
             array[array.length - 1 - i] = temp;     
         }
      }
-  }```
+  }
