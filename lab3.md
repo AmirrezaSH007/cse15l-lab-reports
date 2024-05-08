@@ -33,8 +33,8 @@
             array[array.length - i] = temp;     
        }
      }
-  }
-```
+  }```
+  
  **Next**
 
   ```public class ArrayExamples {
