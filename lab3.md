@@ -1,7 +1,9 @@
 **PART 1)**
 * #1) A failure-inducing input
   **`ArrayTests.java`**
-  ```import org.junit.Test;
+
+  ```
+  import org.junit.Test;
      import static org.junit.Assert.*;
 
      public class ArrayTests {
@@ -15,7 +17,8 @@
   ``` 
 
 * #2) An input that doesn't induce a failure
-  ```@Test 
+  ```
+  @Test 
        public void testReverseInPlaceNonFailure() {
           int[] input = { 3 };
           ArrayExamples.reverseInPlace(input);
@@ -25,7 +28,8 @@
 * #3) 
 ![Image](symptom.png)
 * #4)
-  ``` public class ArrayExamples {
+```
+  public class ArrayExamples {
         public static void reverseInPlace(int[] array) {
           for (int i = 0; i < array.length; i++) {
             int temp = array[i];
@@ -34,10 +38,12 @@
        }
      }
   }
-  
+```  
+ 
  **Next**
 
-  ```public class ArrayExamples {
+```
+public class ArrayExamples {
        public static void reverseInPlace(int[] array) {
          for (int i = 0; i < array.length / 2; i++) {
             int temp = array[i];
