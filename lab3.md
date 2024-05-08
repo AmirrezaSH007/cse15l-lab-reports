@@ -139,3 +139,5 @@ This command searches for the word "function" in all files within the ./technica
 **NEXT**
 
 ![Image](exclude.png)
+
+
