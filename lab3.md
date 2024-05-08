@@ -11,8 +11,8 @@
          assertArrayEquals(new int[]{4, 3, 2, 1}, input);
        }
      }``` 
-  
-  * Part 2) An input that doesn't induce a failure
+
+* Part 2) An input that doesn't induce a failure
     ```@Test 
        public void testReverseInPlaceNonFailure() {
           int[] input = { 3 };
