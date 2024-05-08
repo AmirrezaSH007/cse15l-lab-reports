@@ -22,7 +22,7 @@
 * Part 3) 
 ![Image](symptom.png)
 * Part 4)
- ``` public class ArrayExamples {
+  ``` public class ArrayExamples {
         public static void reverseInPlace(int[] array) {
           for (int i = 0; i < array.length; i++) {
             int temp = array[i];
@@ -31,8 +31,10 @@
        }
      }
   }```
- **Next** 
- ```public class ArrayExamples {
+
+ **Next**
+
+  ```public class ArrayExamples {
        public static void reverseInPlace(int[] array) {
          for (int i = 0; i < array.length / 2; i++) {
             int temp = array[i];
