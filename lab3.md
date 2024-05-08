@@ -19,5 +19,25 @@
           ArrayExamples.reverseInPlace(input);
           assertArrayEquals(new int[]{ 3 }, input); // This test should pass as reversing a single element doesn't change the array.
        }```
-Part 3) 
+* Part 3) 
 ![Image](symptom.png)
+* Part 4)
+  ``` public class ArrayExamples {
+        public static void reverseInPlace(int[] array) {
+          for (int i = 0; i < array.length; i++) {
+            int temp = array[i];
+            array[i] = array[array.length - i]; 
+            array[array.length - i] = temp;     
+       }
+     }
+  }```
+ **Next** 
+  ```public class ArrayExamples {
+       public static void reverseInPlace(int[] array) {
+         for (int i = 0; i < array.length / 2; i++) {
+            int temp = array[i];
+            array[i] = array[array.length - 1 - i]; 
+            array[array.length - 1 - i] = temp;     
+        }
+      }
+    }```
