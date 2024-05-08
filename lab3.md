@@ -11,6 +11,7 @@
          assertArrayEquals(new int[]{4, 3, 2, 1}, input);
        }
      }``` //This test checks if the method correctly reverses an array of four elements. If there is a bug to improper swapping, this test will likely fail.
+  
   * Part 2) An input that doesn't induce a failure
     ```@Test 
        public void testReverseInPlaceNonFailure() {
