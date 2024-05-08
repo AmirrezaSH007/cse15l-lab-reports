@@ -52,7 +52,9 @@ The fix addresses the issue by correctly using `array.length - 1 - i` for indexi
 
 **PART 2)**
 I used `man grep` on my terminal and every usable command poped up and these are the ones I chose which I think are both interesting and useful:
-![Image](i.png)
+![Image](r.png)
+This command searches for the word "function" in all files within the ./technical directory and all its subdirectories. It's useful for finding occurrences of "function" in multiple files without having to specify each file.
+
 `grep -r "function" ./technical/`
 ```
 ./technical//biomed/1471-2202-2-6.txt:        assemble to form a functional channel. Both homomultimeres
@@ -66,5 +68,5 @@ I used `man grep` on my terminal and every usable command poped up and these are
 .
 .
 .
-.
+. many more
 ```
