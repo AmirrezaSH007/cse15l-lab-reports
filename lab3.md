@@ -32,7 +32,7 @@
      }
   }```
  **Next** 
- ```public class ArrayExamples {
+  ```public class ArrayExamples {
        public static void reverseInPlace(int[] array) {
          for (int i = 0; i < array.length / 2; i++) {
             int temp = array[i];
