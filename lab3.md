@@ -117,6 +117,7 @@ This command searches for the word "function" in all files within the ./technica
 222:        This study demonstrates that monocytes and fibroblasts
 
 * **`grep -n "model" ./technical/biomed/rr196.txt`** Again, does the same but in a different file and finds the word "model" with the matched lines.
+
 ```7:        studied animal model for human emphysema. Several
 9:        been demonstrated in this model. Among these are diaphragm
 46:        which is similar to that seen in the animal model.
