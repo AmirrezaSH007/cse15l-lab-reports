@@ -85,6 +85,7 @@ This command searches for the word "function" in all files within the ./technica
 .many more
 ```
 **NEXT**
+
 ![Image](i.png)
 * **`grep -i "MODel" ./technical/biomed/rr73.txt`** This searches for the word "model" in rr73.txt under the ./technical/biomed directory, ignoring case. It's useful when we're unsure of the casing.
 
@@ -134,5 +135,7 @@ This command searches for the word "function" in all files within the ./technica
 586:        animal model of emphysema, this study is the first to
 652:        animal models of emphysema without the demonstration of
 660:        animal model the shift occurs at the faster end of the
-```
 
+**NEXT**
+
+![Image](exclude.png)
