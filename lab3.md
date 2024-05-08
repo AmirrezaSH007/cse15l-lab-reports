@@ -20,4 +20,4 @@
           assertArrayEquals(new int[]{ 3 }, input); // This test should pass as reversing a single element doesn't change the array.
        }```
 Part 3) 
-![Image](The symptom.png)
+![Image](symptom.png)
