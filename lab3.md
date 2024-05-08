@@ -52,13 +52,19 @@ The fix addresses the issue by correctly using `array.length - 1 - i` for indexi
 
 **PART 2)**
 I used `man grep` on my terminal and every usable command poped up and these are the ones I chose which I think are both interesting and useful:
-
-
-
-
-
-
-
-
-
-
+![Image](i.png)
+`grep -r "function" ./technical/`
+```
+./technical//biomed/1471-2202-2-6.txt:        assemble to form a functional channel. Both homomultimeres
+./technical//biomed/1471-2202-2-6.txt:        this function, since it is the only IP 
+./technical//biomed/1471-2202-2-6.txt:        expressed in taste cells [ 26], also functions to decrease
+./technical//biomed/1475-2867-2-15.txt:        usage [ 2 ] . Both the RARs and RXRs contain functional
+./technical//biomed/1475-2867-2-15.txt:        promoters. RARs and RXRs function as heterodimers that bind
+./technical//biomed/1475-2867-2-15.txt:        of serine 77 enhanced the transactivation function of RARα.
+./technical//biomed/1475-2867-2-15.txt:        the proper functioning of RARs.
+./technical//biomed/1475-2867-2-15.txt:        to inhibit the basal activation function of the receptor [
+.
+.
+.
+.
+```
