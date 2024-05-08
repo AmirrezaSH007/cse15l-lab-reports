@@ -33,7 +33,7 @@
             array[array.length - i] = temp;     
        }
      }
-  }```
+  }
   
  **Next**
 
