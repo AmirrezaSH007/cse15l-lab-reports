@@ -135,9 +135,29 @@ This command searches for the word "function" in all files within the ./technica
 586:        animal model of emphysema, this study is the first to
 652:        animal models of emphysema without the demonstration of
 660:        animal model the shift occurs at the faster end of the
+```
 
 **NEXT**
 
 ![Image](exclude.png)
-
-
+* **`grep -r --exclude-dir=biomed "cache" ./technical/`** This command searches recursively for "cache" in all files within ./technical, excluding any directory named `biomed`. It helps in avoiding redundant searches in `biomed` directory.
+```./technical//government/Media/Retirement_Has_Its_Appeal.txt:"He has the cachet of being a long-standing family court judge,
+./technical//911report/chapter-13.4.txt:                cachets. CIA analytic report, Al Qaeda travel issues, Jan. 2004, p. 1.
+./technical//911report/chapter-13.4.txt:                1999. Another possible source of suspicion is his passport, which contains a cachet
+./technical//911report/chapter-5.txt:                and adding travel cachets, were also taught. Manuals demonstrating the technique for
+./technical//911report/chapter-12.txt:                recorded in passports with entry-exit stamps called cachets, which al Qaeda has
+```
+* **grep -r --exclude-dir={government,biomed} "session" ./technical/`** Again does the same, but this times, we used the command so that we exclude both `government` and `biomed` to find the word session in the other.
+```./technical//plos/pmed.0020060.txt:        Museum of French Art in New York, auctioned, and finally ending up in the possession of a
+./technical//plos/pmed.0020060.txt:        tapes of hundreds of hours of therapy sessions given to her by Sexton's therapist Dr.
+./technical//plos/journal.pbio.0030136.txt:        obsession reveal about neural processing? Why does repeated fine-grain structure wreak such
+./technical//plos/pmed.0020016.txt:        preparation for that session, Schwartländer et al. published an estimate of the resource
+./technical//plos/journal.pbio.0020116.txt:        opinion that research into prolonging healthy life may result in a lifetime obsession with
+./technical//plos/pmed.0020034.txt:        current obsession of the medical profession with the pharmaceutical management of asthma
+./technical//plos/journal.pbio.0020306.txt:        these was in October 2002, a massive brainstorming session at which we all dug around in
+./technical//911report/chapter-13.4.txt:                Jarrah had in his possession, but released him after he pointed out that he had
+.
+.
+.
+. more
+```
