@@ -105,7 +105,7 @@ This command searches for the word "function" in all files within the ./technica
 **NEXT**
 
   ![Image](n.png)
-  * **`grep -n "study" ./technical/biomed/rr73.txt`** This command searches for "study" in the ./technical/rr73.txt, displaying line numbers with matches. It's particularly useful when editing files as it tells you exactly where to find the terms.
+* **`grep -n "study" ./technical/biomed/rr73.txt`** This command searches for "study" in the ./technical/rr73.txt, displaying line numbers with matches. It's particularly useful when editing files as it tells you exactly where to find the terms.
 ```16:        Results in the linked study [ 5] demonstrated that 3D
 20:        the current study, an extension of this linked study, was
 148:        In the linked study [ 5], extended co-cultures of
@@ -115,7 +115,7 @@ This command searches for the word "function" in all files within the ./technica
 186:        According to results from this study, several proteases
 189:        play a role beyond those evaluated in the current study. In
 222:        This study demonstrates that monocytes and fibroblasts
-
+```
 * **`grep -n "model" ./technical/biomed/rr196.txt`** Again, does the same but in a different file and finds the word "model" with the matched lines.
 
 ```7:        studied animal model for human emphysema. Several
@@ -134,4 +134,5 @@ This command searches for the word "function" in all files within the ./technica
 586:        animal model of emphysema, this study is the first to
 652:        animal models of emphysema without the demonstration of
 660:        animal model the shift occurs at the faster end of the
+```
 
