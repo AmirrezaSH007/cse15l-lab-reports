@@ -55,7 +55,7 @@ I used `man grep` on my terminal and every usable command poped up and these are
 ![Image](r.png)
 This command searches for the word "function" in all files within the ./technical directory and all its subdirectories. It's useful for finding occurrences of "function" in multiple files without having to specify each file.
 
-`grep -r "function" ./technical/`
+* **`grep -r "function" ./technical/`**
 ```
 ./technical//biomed/1471-2202-2-6.txt:        assemble to form a functional channel. Both homomultimeres
 ./technical//biomed/1471-2202-2-6.txt:        this function, since it is the only IP 
@@ -69,4 +69,17 @@ This command searches for the word "function" in all files within the ./technica
 .
 .
 . many more
+```
+* **`grep -r "^import" ./technical/`**
+```
+./technical//government/About_LSC/Strategic_report.txt:important to the creation of a world-class delivery system as state
+./technical//government/About_LSC/Strategic_report.txt:important consulting and facilitative assistance with configuration
+./technical//government/About_LSC/CONFIG_STANDARDS.txt:importance of creating enduring capacities at the state level to
+./technical//government/About_LSC/commission_report.txt:important agricultural states, such as Arkansas, Kentucky, New
+./technical//government/About_LSC/ONTARIO_LEGAL_AID_SERIES.txt:important mechanism to bring people together to find-and
+./technical//government/About_LSC/diversity_priorities.txt:importance of a diverse workplace and the commitment of board and
+.
+.
+.
+many more
 ```
