@@ -147,7 +147,7 @@ This command searches for the word "function" in all files within the ./technica
 ./technical//911report/chapter-5.txt:                and adding travel cachets, were also taught. Manuals demonstrating the technique for
 ./technical//911report/chapter-12.txt:                recorded in passports with entry-exit stamps called cachets, which al Qaeda has
 ```
-* **grep -r --exclude-dir={government,biomed} "session" ./technical/`** Again does the same, but this times, we used the command so that we exclude both `government` and `biomed` to find the word session in the other.
+* **`grep -r --exclude-dir={government,biomed} "session" ./technical/`** Again does the same, but this times, we used the command so that we exclude both `government` and `biomed` to find the word session in the other.
 ```./technical//plos/pmed.0020060.txt:        Museum of French Art in New York, auctioned, and finally ending up in the possession of a
 ./technical//plos/pmed.0020060.txt:        tapes of hundreds of hours of therapy sessions given to her by Sexton's therapist Dr.
 ./technical//plos/journal.pbio.0030136.txt:        obsession reveal about neural processing? Why does repeated fine-grain structure wreak such
