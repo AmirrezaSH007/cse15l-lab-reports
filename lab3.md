@@ -102,7 +102,7 @@ This command searches for the word "function" in all files within the ./technica
         fibers [ 10 ] . Another study has shown increased
         animal model of emphysema, this study is the first to
 
-   **NEXT**
+**NEXT**
 
   ![Image](n.png)
   * **`grep -n "study" ./technical/biomed/rr73.txt`** This command searches for "study" in the ./technical/rr73.txt, displaying line numbers with matches. It's particularly useful when editing files as it tells you exactly where to find the terms.
