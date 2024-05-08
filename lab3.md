@@ -71,6 +71,7 @@ This command searches for the word "function" in all files within the ./technica
 . many more
 ```
 * **`grep -r "^import" ./technical/`**
+  This command searches for lines that start with "import" in all files under the ./technical directory recursively. It's helpful for identifying import statements in programming projects.
 ```
 ./technical//government/About_LSC/Strategic_report.txt:important to the creation of a world-class delivery system as state
 ./technical//government/About_LSC/Strategic_report.txt:important consulting and facilitative assistance with configuration
@@ -81,17 +82,8 @@ This command searches for the word "function" in all files within the ./technica
 .
 .
 .
-
-
-
-
-
-
-
-
-.
-.
-..
-
-many more
+.many more
 ```
+**NEXT**
+![Image](i.png)
+
