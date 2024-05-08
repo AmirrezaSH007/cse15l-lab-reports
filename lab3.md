@@ -86,4 +86,7 @@ This command searches for the word "function" in all files within the ./technica
 ```
 **NEXT**
 ![Image](i.png)
+* **`grep -i "MODel" ./technical/biomed/rr73.txt`**
+        ```in vitro model of 
+        remodeling. It seems unlikely that tissue remodeling is```
 
