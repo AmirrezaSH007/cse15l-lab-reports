@@ -1,5 +1,5 @@
-*1 Logged into ieng6: ssh<space>yourusername@ieng6.ucsd.edu<enter>
-Ran vimtutor: vimtutor<enter>
+* 1 Logged into `ieng6`: `ssh<space>myusername@ieng6.ucsd.edu<enter>`
+* 2 Ran vimtutor: vimtutor<enter> 
 Cloned the repository: git<space>clone<space>https://github.com/ucsd-cse15l-s24/lab7<enter>
 Navigated to the repository: cd<space>lab7<enter>
 Opened ListExamples.java in Vim: vim<space>ListExamples.java<enter>
