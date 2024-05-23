@@ -20,10 +20,10 @@
 * 6 **Edited the file in Vim**: `/index1<enter>n<esc>ciwindex2<esc>:wq<enter>`
   **Explanation:** Searched for `index1`, went to the next occurrence, entered insert mode, changed `index1` to `index2`, exited insert mode, saved the file, and quit vim.
   
-*7 **Ran the tests:** `<up><up><up><up><enter>, <up><up><up><up><enter>`
+* 7 **Ran the tests:** `<up><up><up><up><enter>, <up><up><up><up><enter>`
   **Explanation:** The **`javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`** command was 4 up in the search history, so I used the up arrow to access it and pressed Enter to run it. Then the **`java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`** command was also 4 up in the history, so I accessed and ran it in the same way.
 
-*8 **Committed and pushed the changes:** **`git<space>add<space>ListExamples.java<enter>git<space>commit<space>-m<space>"Fixed the test by changing index1 to index2"<enter>git<space>push<space>origin<space>main<enter>`**
+* 8 **Committed and pushed the changes:** **`git<space>add<space>ListExamples.java<enter>git<space>commit<space>-m<space>"Fixed the test by changing index1 to index2"<enter>git<space>push<space>origin<space>main<enter>`**
   **Explanation:** Staged the changes, committed with a message, and pushed the changes to the GitHub repository.
 
 
