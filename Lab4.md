@@ -1,3 +1,5 @@
+**LAB 4**
+
 ![Image](Vim.png)
 
 * 1 **Logged into `ieng6`:** `ssh<space>myusername@ieng6.ucsd.edu<enter>`
@@ -23,5 +25,8 @@
 
 * 8 **Committed and pushed the changes:** **`git<space>add<space>ListExamples.java<enter>git<space>commit<space>-m<space>"Fixed the test by changing index1 to index2"<enter>git<space>push<space>origin<space>main<enter>`**
   **Explanation:** Staged the changes, committed with a message, and pushed the changes to the GitHub repository.
+
+
+  
 
 
