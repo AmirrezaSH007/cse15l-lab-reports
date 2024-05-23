@@ -1,6 +1,4 @@
-
-
-
+![Image](Vim.png)
 
 * 1 **Logged into `ieng6`:** `ssh<space>myusername@ieng6.ucsd.edu<enter>`
   **Explanation:** I logged into the ieng6 server using SSH.
