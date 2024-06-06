@@ -28,10 +28,11 @@ From the debug output, I noticed that elements are not being compared correctly.
 
 
 * **The directory of the code which was used to create the above story:**
+
 ![Image](Directory.png)
 
 * **The setup for `run_sorter.sh`**
-![Image](Run_sorter.png)
+![Image](run_sorter.png)
 
 * **The Fixed code after debugging and finding the error:**
 ![Image](Fixed-code.png)
