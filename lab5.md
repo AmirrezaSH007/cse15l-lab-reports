@@ -9,7 +9,7 @@ Here is a screenshot of my terminal output:
 ![Image](Buggy-output.png)
 
 In this example, I tried to sort the array [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5], but the output is not sorted correctly.
-Does anyone have any idea what might be going wrong?
+Can you help me find the error or the bug?
 
 
 
