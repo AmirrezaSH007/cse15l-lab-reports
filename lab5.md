@@ -4,7 +4,7 @@ Hi everyone,
 
 I'm having trouble with my Sorter.java program. I expect it to sort an array of integers, but it seems to be giving me incorrect results. 
 I think the issue might be with my sorting logic or how I'm handling array indices.
-![Image](Buggy-code.png)
+![Image](buggy-code.png)
 Here is a screenshot of my terminal output:
 ![Image](Buggy-output.png)
 
