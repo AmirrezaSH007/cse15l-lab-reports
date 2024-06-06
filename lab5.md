@@ -32,7 +32,12 @@ It looks like the array is partially sorted, but some elements are still out of 
 ![Image](Debugging-output.png)
 From the debug output, I noticed that elements are not being compared correctly.
 
-
+.
+.
+.
+.
+.
+.
 
 
 * **The directory of the code which was used to create the above story:**
