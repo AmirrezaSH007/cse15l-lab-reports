@@ -32,7 +32,7 @@ From the debug output, I noticed that elements are not being compared correctly.
 ![Image](Directory.png)
 
 * **The setup for `run_sorter.sh`**
-![Image](run_sorter.png)
+![Image](run-sorter.png)
 
 * **The Fixed code after debugging and finding the error:**
 ![Image](Fixed-code.png)
